@@ -1,6 +1,6 @@
 import java.util.*;
 class sellTickets implements Runnable{
-    static int Tickets=10;
+    static int Tickets=10000;
     int mTickets;
     Thread t;
     sellTickets(String name){
